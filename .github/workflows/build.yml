@@ -7,7 +7,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
@@ -22,3 +22,8 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
+
+# runs-on: ubuntu-18.04
+# erro This is a scheduled Ubuntu-18.04 brownout. The Ubuntu-18.04 environment is deprecated and will be removed on April 1st, 2023. For more details, see https://github.com/actions/runner-images/issues/6002
+# erro GitHub Actions has encountered an internal error when running your job.
+# aviso The ubuntu-18.04 environment is deprecated, consider switching to ubuntu-20.04(ubuntu-latest), or ubuntu-22.04 instead. For more details see https://github.com/actions/virtual-environments/issues/6002
