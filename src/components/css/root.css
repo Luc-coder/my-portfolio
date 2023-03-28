@@ -1,0 +1,12 @@
+:root{
+	--primary-color: rgb(39, 39, 39);
+	--secondary-color: rgb(65, 65, 65);
+	--primary-bg: #efefef;
+	--secondary-bg: #cccccc;
+	--main-div-width: 80%;
+	--main-div-height: 100%;
+	--container-padding: 0 2%;
+	--container-margin: 0 auto;
+	--container-width: 100%;
+	--container-height: 100%; 
+}

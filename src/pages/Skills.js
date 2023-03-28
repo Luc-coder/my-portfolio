@@ -1,15 +1,14 @@
-import styles from '../components/css/Home.module.css'
-
+import styles from '../components/css/Skills.module.css'
 import '../components/css/root.css'
 
-function Home(){
+function Skills(){
 	return(
 		<div className={styles.main}>
 			<div className={styles.container}>
-				<p>Home</p>
+				<p>teste Skills</p>
 			</div>
 		</div>
 	)
 }
 
-export default Home
+export default Skills

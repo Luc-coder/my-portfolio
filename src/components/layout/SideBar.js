@@ -7,18 +7,28 @@ import styles from '../css/SideBar.module.css'
 function SideBar(){
 	return(
 		<div className={styles.main}>
-			
-			<ul>
-					<li>
-						<Link to='/'>Home</Link>
-					</li>
-					<li>
-						<Link to='/sobre'>Sobre</Link>
-					</li>
-					<li>
-						<Link to='/contato'>Contato</Link>
-					</li>
-				</ul>
+			<div className={styles.photo}>
+				<div className={styles.pic}></div>
+			</div>
+
+			<div className={styles.list}>
+				<nav>
+					<ul>
+						<li>
+							<Link className={styles.link} to='/home'>Home</Link>
+						</li>
+						<li>
+							<Link className={styles.link} to='/sobre'>Sobre Mim</Link>
+						</li>
+						<li>
+							<Link className={styles.link} to='/skills'>Skills</Link>
+						</li>
+						<li>
+							<Link className={styles.link} to='/contato'>Contato</Link>
+						</li>
+					</ul>
+				</nav>
+			</div>	
 		</div>
 	)
 }
