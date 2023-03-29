@@ -1,6 +1,8 @@
 .main{
 	width: var(--main-div-width);
 	height: var(--main-div-height);
+	background-color: var(--third-bg);
+	color: var(--trird-color);
 }
 
 .container{
@@ -8,4 +10,31 @@
 	height: var(--container-height);
 	padding: var(--container-padding);
 	margin: var(--container-margin);
+}
+
+.boxText{
+	padding: 2% 10%;
+}
+
+.boxGaleria{
+	width: 100%;
+	height: 44%;
+	padding: 0 2%;
+}
+
+.galeria{
+	width: 100%;
+	height: 70%;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.galeriaSingle{
+	width: 20%;
+	height: 100%;
+	border: 1px solid black;
+	background-color: #ccc;
 }

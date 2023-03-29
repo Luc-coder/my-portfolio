@@ -1,6 +1,8 @@
 .main{
 	width: var(--main-div-width);
 	height: var(--main-div-height);
+	background-color: var(--third-bg);
+	color: var(--trird-color);
 }
 
 .container{

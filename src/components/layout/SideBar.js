@@ -2,6 +2,8 @@ import { Link } from 'react-router-dom'
 
 import styles from '../css/SideBar.module.css'
 
+import '../css/root.css'
+
 
 
 function SideBar(){

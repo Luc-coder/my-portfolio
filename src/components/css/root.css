@@ -1,8 +1,11 @@
 :root{
 	--primary-color: rgb(39, 39, 39);
 	--secondary-color: rgb(65, 65, 65);
-	--primary-bg: #efefef;
-	--secondary-bg: #cccccc;
+	--trird-color: rgb(226, 226, 226);
+	--first-bg: #e7eaf6;
+	--second-bg: #a2a8d3;
+	--third-bg: #38598b;
+	--fourth-bg: #113f67;
 	--main-div-width: 80%;
 	--main-div-height: 100%;
 	--container-padding: 0 2%;
@@ -10,3 +13,41 @@
 	--container-width: 100%;
 	--container-height: 100%; 
 }
+
+
+
+/*meio roxinho*/
+/* .first-color { 
+	background: #e7eaf6; 
+}
+	
+.second-color { 
+	background: #a2a8d3; 
+}
+
+.third-color { 
+	background: #38598b; 
+}
+
+.fourth-color { 
+	background: #113f67; 
+} */
+
+
+/*mais azul palido*/
+
+/* .first-color { 
+	background: #5dacbd; 
+}
+	
+.second-color { 
+	background: #24527a; 
+}
+
+.third-color { 
+	background: #a7bcb9; 
+}
+
+.fourth-color { 
+	background: #e0ebeb; 
+} */
