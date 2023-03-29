@@ -1,6 +1,4 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
-//  import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
-//  navigate dando problema
 
 import styles from './components/css/App.module.css'
 
