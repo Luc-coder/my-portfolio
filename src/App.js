@@ -17,8 +17,8 @@ function App() {
       <Router>
         <SideBar />
         <Routes>
-          <Route path='/' element={<Navigate to='/home' />} />
-          <Route path='/home' element={<Home/>}></Route>
+          <Route path='/*' element={<Navigate to='/home' />} />
+          <Route path='/home' exact={true} element={<Home/>}></Route>
           <Route path='/sobre' element={<Sobre/>}></Route>
           <Route path='/skills' element={<Skills/>}></Route>
           <Route path='/contato' element={<Contato/>}></Route>
