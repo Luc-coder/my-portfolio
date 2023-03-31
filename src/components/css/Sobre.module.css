@@ -65,11 +65,17 @@
 .galeriaSingle{
 	width: 20%;
 	height: 100%;
-	border: 1px solid black;
+	margin: 0 5px;
 	background-color: #ccc;
 	animation-name: default;
 	opacity: 0;
 	animation-fill-mode: forwards;
+	transition: 0.7s;
+	border-radius: 4px;
+}
+
+.galeriaSingle:hover{
+	width: 23%;
 }
 
 .galeriaSingle:nth-child(1){
