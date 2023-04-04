@@ -11,3 +11,129 @@
 	padding: var(--container-padding);
 	margin: var(--container-margin);
 }
+
+.names{
+	width: 100%;
+	height: 60%;
+	/* background-color: red; */
+	padding: 120px 0;
+}
+
+.fname{
+	width: 40%;
+	height: 33.3%;
+	/* background-color: orange; */
+	animation-name: default;
+	opacity: 0;
+	animation-fill-mode: forwards;
+	animation-duration: 2s;
+	animation-delay: 0.7s;
+}
+
+.fname p{
+	text-align: right;
+	font-size: 100px;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.mname{
+	width: 40%;
+	height: 33.3%;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	/* background-color: blue; */
+	animation-name: default;
+	opacity: 0;
+	animation-fill-mode: forwards;
+	animation-duration: 2s;
+	animation-delay: 1.4s;
+}
+
+.mname p{
+	text-align: center;
+	font-size: 100px;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.lname{
+	width: 40%;
+	height: 33.3%;
+	position: relative;
+	left: 100%;
+	transform: translateX(-100%);
+	/* background-color: purple; */
+	animation-name: default;
+	opacity: 0;
+	animation-fill-mode: forwards;
+	animation-duration: 2s;
+	animation-delay: 2.1s;
+}
+
+.lname p{
+	text-align: left;
+	font-size: 100px;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+@keyframes default {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+.dev{
+	width: 100%;
+	height: 40%;
+	display: flex;
+	flex-wrap: nowrap;
+	/* background-color: red; */
+}
+
+.text{
+	width: 50%;
+	height: 100%;
+	/* background-color: red; */
+}
+
+.text p{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 100px;
+	animation-name: default;
+	opacity: 0;
+	animation-fill-mode: forwards;
+	animation-duration: 2s;
+	animation-delay: 2.8s;
+}
+
+.imgBox{
+	width: 50%;
+	height: 100%;
+	/* background-color: blue; */
+}
+
+
+.imgBox svg{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 280px;
+	animation-name: default;
+	opacity: 0;
+	animation-fill-mode: forwards;
+	animation-duration: 2s;
+	animation-delay: 3.5s;
+}
