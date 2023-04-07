@@ -16,13 +16,19 @@
 	width: 100%;
 	height: 10%;
 	padding-top: 30px;
+	animation-name: default;
+	opacity: 0;
+	animation-fill-mode: forwards;
+	animation-duration: 2s;
+	animation-delay: 0.7s;
 }
 
 .title h1{
 	text-align: center;
 }
 
-.mainBox{
+.mainBoxU,
+.mainBoxD{
 	width: 100%;
 	height: 40%;
 	/* background-color: red; */
@@ -30,11 +36,108 @@
 	margin: 20px 0;
 }
 
+@keyframes default {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
 .singleBox{
 	width: 33.3%;
 	height: 100%;
 	margin: 0 10px;
-	background-color: black;
+	background-color: #ccc;
 	/* border: 1px solid black; */
 	border-radius: 4px;
+	animation-name: default;
+	opacity: 0;
+	animation-fill-mode: forwards;
+}
+
+.mainBoxU .singleBox:nth-child(1){
+	animation-duration: 2s;
+	animation-delay: 1.4s;
+}
+.mainBoxU .singleBox:nth-child(2){
+	animation-duration: 2s;
+	animation-delay: 2.1s;
+}
+.mainBoxU .singleBox:nth-child(3){
+	animation-duration: 2s;
+	animation-delay: 2.8s;
+}
+.mainBoxD .singleBox:nth-child(1){
+	animation-duration: 2s;
+	animation-delay: 3.5s;
+}
+.mainBoxD .singleBox:nth-child(2){
+	animation-duration: 2s;
+	animation-delay: 4.2s;
+}
+.mainBoxD .singleBox:nth-child(3){
+	animation-duration: 2s;
+	animation-delay: 4.9s;
+}
+
+.singleBox .svgBox{
+	width: 100%;
+	height: 80%;
+}
+
+.singleBox .nameBox{
+	width: 100%;
+	height: 20%;
+	/* background-color: red; */
+}
+
+.singleBox .nameBox p{
+	color: black;
+	text-align: center;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.singleBox svg{
+	color: black;
+	font-size: 200px;
+	position: relative;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+}
+
+.svgBoxFlex{
+	width: 100%;
+	height: 80%;
+}
+
+.svgBoxFlex .dualBox{
+	width: 100%;
+	height: 50%;
+	display: flex;
+}
+
+.dualBox .leftBox{
+	height: 100%;
+	width: 50%;
+}
+
+.dualBox .rightBox{
+	height: 100%;
+	width: 50%;
+}
+
+.leftBox svg, .rightBox svg, .oneBox svg{
+	font-size: 140px;
+}
+
+.svgBoxFlex .oneBox{
+	width: 100%;
+	height: 50%;
 }
